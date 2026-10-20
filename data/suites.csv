@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","5539","password field masks entered characters","chromium","2026-10-20","passed","2026-10-20","OrangeHRM login - invalid and incomplete credentials","login.invalid.spec.js","",""
+"","7493","blank credentials show required field validation","chromium","2026-10-20","passed","2026-10-20","OrangeHRM login - invalid and incomplete credentials","login.invalid.spec.js","",""
+"","5084","invalid username is rejected","chromium","2026-10-20","passed","2026-10-20","OrangeHRM login - invalid and incomplete credentials","login.invalid.spec.js","",""
+"","15991","valid demo credentials authenticate and display the dashboard","chromium","2026-10-20","failed","2026-10-20","OrangeHRM login - valid credentials","login.valid.spec.js","",""
+"","10684","invalid password is rejected","chromium","2026-10-20","passed","2026-10-20","OrangeHRM login - invalid and incomplete credentials","login.invalid.spec.js","",""

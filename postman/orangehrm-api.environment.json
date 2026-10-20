@@ -1,0 +1,14 @@
+{
+  "id": "orangehrm-api-env-template",
+  "name": "OrangeHRM API - Template",
+  "values": [
+    {
+      "key": "apiBaseUrl",
+      "value": "{{ORANGEHRM_API_BASE_URL}}",
+      "type": "default",
+      "enabled": true
+    }
+  ],
+  "_postman_variable_scope": "environment",
+  "_postman_exported_using": "Postman"
+}

@@ -1,0 +1,39 @@
+{
+  "info": {
+    "name": "OrangeHRM API Smoke - Template",
+    "description": "Placeholder only. Replace with an approved API endpoint and auth flow before execution.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Endpoint placeholder - configure before use",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{apiBaseUrl}}/REPLACE_WITH_APPROVED_ENDPOINT",
+          "host": [
+            "{{apiBaseUrl}}"
+          ],
+          "path": [
+            "REPLACE_WITH_APPROVED_ENDPOINT"
+          ]
+        },
+        "description": "Not a verified test. Replace endpoint and add meaningful assertions."
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('Endpoint placeholder has been replaced', function () {",
+              "  pm.expect(pm.request.url.toString()).to.not.include('REPLACE_WITH_APPROVED_ENDPOINT');",
+              "});"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

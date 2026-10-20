@@ -92,6 +92,13 @@ npm run test:allure:open            # serve and open the Allure report
 
 Allure report generation requires a Java runtime.
 
+## Live report (GitHub Pages)
+
+The latest run is published from the `gh-pages` branch:
+
+- Allure report: https://shubhamlatake9520-sys.github.io/Project_OrangeHRM_Playwright/
+- Failure artifacts (screenshot, video, trace, error context): https://shubhamlatake9520-sys.github.io/Project_OrangeHRM_Playwright/test-results/
+
 ## Newman API workflow
 
 `postman/` contains a template only. Replace its placeholder endpoint, authentication flow and assertions before relying on the result.

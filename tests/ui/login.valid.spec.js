@@ -3,7 +3,7 @@ const { test, expect } = require('../../fixtures/testFixtures');
 test.describe('OrangeHRM login - valid credentials', () => {
   test('valid demo credentials authenticate and display the dashboard', async ({ page, loginPage }) => {
     const username = process.env.ORANGEHRM_USERNAME || 'Admin';
-    const password = process.env.ORANGEHRM_PASSWORD || 'admin1234';
+    const password = process.env.ORANGEHRM_PASSWORD || 'admin123';
 
     await loginPage.open();
     await expect(loginPage.usernameInput).toBeVisible();
